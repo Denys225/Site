@@ -51,7 +51,6 @@ h1,h2,h3,h4,h5,h6{
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,9 +71,6 @@ h1,h2,h3,h4,h5,h6{
     right: auto;
 
 }
-
-
-
 
 @media screen and (max-width: 1200px) {
     .swiper-button-next, .swiper-rtl .swiper-button-prev {
