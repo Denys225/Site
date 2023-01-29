@@ -1,0 +1,136 @@
+body {
+    background: #45a6de;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hrader__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__link {
+    color: #fff;
+    padding-left: 25px;
+    font-size: 26px;
+}
+
+.nav__link:nth-child(2) {
+    opacity: 70%;
+}
+
+.hrader__text h2{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.hrader__titile {
+    margin-top: 20px;
+}
+
+/*Swier===================*/
+
+.swiper {
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 58%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 140px !important;
+    right: auto;
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: 20px !important;
+        left: auto;
+    }
+    
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 20px !important;
+        right: auto;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .swiper {
+        width: 800px;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .swiper {
+        width: 600px;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .swiper {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 409px) {
+    .hrader__titile {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .swiper {
+        width: 300px; 
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 315px) {
+    .hrader__titile {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    
+    .swiper {
+        width: 250px; 
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="First.css">
+    <title>Сайтик для Васі "Головна"</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="hrader__inner">
+           <div class="header__nav">
+            <a class="nav__link" href="#">Головна</a>
+            <a class="nav__link" href="Second.html">Контакти</a>
+           </div> 
+        </div>
+
+        <div class="hrader__text">
+            <h2>Головна:</h2>
+        <div class="hrader__titile">
+                <h1>Привіт, мене звати Василь, живу у Києві, 
+                    зараз допомагаю своєму безтолковому брату розібратися у чому суть...</h1>
+        </div> 
+            </div>
+        </div>
+    </header>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/Sliders/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Sliders/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Sliders/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/Sliders/4.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewhell: true,
+            keyboard: true,
+        });
+    </script>
+</body>
+</html>
